@@ -9,19 +9,29 @@
   <body>
     <section>
       <div class="container">
-        <div class="pt-5">
-          <div class="header text-center">
-            <h1 id="title">freeCodeCamp Survey Form</h1>
-            <p id="description">Thank you for taking the time to help us improve the platform</p>
-          </div>
+        <div class="pt-5 d-flex">
+          <div class="col-lg-2 col-sm-12"></div>
+            <div class="col-lg-8 col-sm-12 mb-5  text-center">
+              <div class="header r">
+                <h1 id="title">freeCodeCamp Survey Form</h1>
+                <p id="description">Thank you for taking the time to help us improve the platform</p>
+              </div>
+
+
+              <form  id="survey-form" class="text-left" action="index.html" method="post">
+                
+                <div class="form-group">
+                  <label id="name-label" for="name" class="text-white"> Name</label>
+                  <input type="text" name="name" class="form-control" id="name"  placeholder="I am required to enter my name" required>
+                </div>
+
+              </form>
+            </div>
+            <div class="col-lg-2 col-sm-12 "></div>
         </div>
       </div>
     </section>
-    <form  id="survey-form" action="index.html" method="post">
-
-    </form>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script  src="js/index.js"></script>
   </body>
 </html>
-~
